@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ObjetosOne.Views;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +12,7 @@ namespace ObjetosOne
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new HeroeView();
         }
 
         protected override void OnStart()
